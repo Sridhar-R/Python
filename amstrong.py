@@ -1,4 +1,4 @@
-num= input("Enter the number : ")
+num= int(input("Enter the number : "))
 sum=0
 temp=num
 a=len(str(num))
@@ -8,6 +8,6 @@ while temp>0:
 	temp=temp/10
 
 if num==sum:
-	print num," is Amstrong number"
+	print (num," is Amstrong number")
 else:
-	print num, "is not Amstrong number"
+	print (num, "is not Amstrong number")

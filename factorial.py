@@ -1,10 +1,7 @@
-num = input("Enter the number :")
-factorial = 1
-if (num < 0):
-	print ("Factorial not possible for negative number")
-elif (num == 0):
-	print ("Factorial is 1")
-else:
-	for i in range(1,num+1):
-		factorial = i*factorial
-	print 'The factorial of',num ,' is',factorial
+def fact(x):
+	if x==0:
+		return 1
+	return x * fact(x-1)
+
+x = (int(input("Enter the number:")))
+print ("Factorial of %d is:" %x , fact(x))

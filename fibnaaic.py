@@ -1,4 +1,4 @@
-nnum = input("Please enter the number of terms")
+nnum =int (input("Please enter the number of terms:"))
 
 n1 = 0
 nth = 0
